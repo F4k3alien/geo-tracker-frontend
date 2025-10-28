@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Demo Geolocalización (con consentimiento)</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Demo de geolocalización</h1>
+    <p class="muted">Solo abre y comparte si aceptas participar voluntariamente en la práctica con consentimiento.</p>
+
+    <div class="card">
+      <p>Haz clic en el botón para solicitar la ubicación al navegador. <strong>El navegador pedirá permiso explícito.</strong></p>
+
+      <div class="controls">
+        <button id="btn-get">Solicitar ubicación</button>
+        <button id="btn-copy-url" title="Copiar URL con marcador">Copiar URL</button>
+      </div>
+
+      <div id="status" class="status">Esperando acción...</div>
+
+      <pre id="output" hidden></pre>
+
+      <details>
+        <summary>Información del servidor destino</summary>
+        <p id="server-info">Servidor: <strong><span id="server-url">NINGUNO</span></strong></p>
+      </details>
+    </div>
+
+    <footer>
+      <small>Proyecto demo — Asegúrate de contar con el consentimiento de las personas antes de recolectar ubicaciones.</small>
+    </footer>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
