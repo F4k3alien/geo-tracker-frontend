@@ -1,6 +1,6 @@
 // URL DEL BACKEND: reemplaza por tu endpoint cuando lo despliegues.
 // Para pruebas locales con ngrok, usa la URL de ngrok, p.ej: https://abcd-1234.ngrok.io
-const BACKEND_BASE = 'http://127.0.0.1:4040'; // dejar vacío por defecto (no enviará si no se configura)
+const BACKEND_BASE = ' https://gaslighted-subfunctional-solomon.ngrok-free.dev'; // dejar vacío por defecto (no enviará si no se configura)
 
 const btn = document.getElementById('btn-get');
 const statusEl = document.getElementById('status');
