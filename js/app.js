@@ -1,6 +1,6 @@
 // URL DEL BACKEND: reemplaza por tu endpoint cuando lo despliegues.
 // Para pruebas locales con ngrok, usa la URL de ngrok, p.ej: https://abcd-1234.ngrok.io
-const BACKEND_BASE = ''; // dejar vacío por defecto (no enviará si no se configura)
+const BACKEND_BASE = 'https://c3f1-2806-xxxx.ngrok-free.app'; // dejar vacío por defecto (no enviará si no se configura)
 
 const btn = document.getElementById('btn-get');
 const statusEl = document.getElementById('status');
